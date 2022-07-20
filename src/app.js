@@ -22,9 +22,9 @@ function random(array) {
 export default function App() {
   const now = new Date();
   const [content, setContent] = useState(random(config.content));
-  const [name, setName] = useState('AC0xRPFS001');
-  const [avatar, setAvatar] = useState('sena');
-  const [color, setColor] = useState('#657c89');
+  const [name, setName] = useState('AWeirdDev');
+  const [avatar, setAvatar] = useState('with_hat');
+  const [color, setColor] = useState('#26bc9e');
   const [time, setTime] = useState(`${now.getFullYear()}/${now.getMonth()+1}/${now.getDate()}`);
   const [light, setLight] = useState(false);
   const [attachment, setAttachment] = useState([]);
@@ -60,8 +60,8 @@ export default function App() {
   return (
     <>
       <header>
-        <div id="title">AC 訊息產生器</div>
-        <a href="https://github.com/kyometori/acgen">原始碼</a>
+        <div id="title">AWD 訊息產生器</div>
+        <a href="https://github.com/charlie-moomoo/awdgen">原始碼</a>
       </header>
       <div id="inputs">
         <LightInput default={light} onCheckChange={handleEnableLightTheme}/>
