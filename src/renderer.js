@@ -1,6 +1,6 @@
 import React from 'react';
-import avatar_sena from './asset/avatar-sena.png';
-import avatar_diep from './asset/avatar-diep.png';
+import with_hat from './asset/with_hat.png';
+import no_hat from './asset/no_hat.png';
 import avatar_chocomint from './asset/avatar-chocomint.png';
 import {
   DiscordMessages,
@@ -9,9 +9,8 @@ import {
 } from '@skyra/discord-components-react';
 
 const avatar = {
-  sena: avatar_sena,
-  diep: avatar_diep,
-  chocomint: avatar_chocomint
+  with_hat:with_hat,
+  no_hat:no_hat
 }
 
 export default function Renderer(props) {
